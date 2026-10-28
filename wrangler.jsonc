@@ -1,0 +1,9 @@
+{
+  // Static site served by Cloudflare (Workers static assets). No build step.
+  "name": "david-pizza-koh-lanta",
+  "compatibility_date": "2025-09-01",
+  "assets": {
+    "directory": ".",
+    "not_found_handling": "404-page"
+  }
+}
