@@ -396,15 +396,27 @@ const MENU=[
   ['mozza','Mozza Bufala Ham',['Buffalo mozzarella, tomato, ham','Mozzarella di bufala, tomate, jambon'],380],
   ['mozzaparma','Mozza Bufala Parma',['Buffalo mozzarella, Parma ham','Mozzarella di bufala, jambon de Parme'],400]]},
  {id:'burger',name:['Burgers','Burgers'],note:['Double patty available.','Steak double possible.'],items:[
-  ['chicken','Chicken Burger',['',''],null],
-  ['cheese','Cheese Burger',['',''],null],
-  ['swiss','Swiss Burger',['',''],null],
-  ['bacon','Bacon Burger',['Served with fries','Servi avec des frites'],null]]},
+  ['chicken','Chicken Burger',['',''],250],
+  ['cheese','Cheese Burger',['',''],250],
+  ['bluecheese','Blue Cheese Burger',['',''],280],
+  ['bacon','Bacon Burger',['Served with fries','Servi avec des frites'],280],
+  ['swiss','Swiss Burger',['',''],280]]},
+ {id:'starter',name:['Starters','Entrées'],note:['',''],items:[
+  ['cheesebread','Cheese Bread',['',''],150,'veg'],
+  ['garlicbread','Garlic Bread',['',''],180,'veg'],
+  ['tomatobread','Tomato Bread',['',''],180,'veg'],
+  ['mixbread','Mix Bread',['',''],450]]},
+ {id:'salad',name:['Salads','Salades'],note:['',''],items:[
+  ['tunasalad','Tuna Salad',['',''],280],
+  ['tomatomozza','Tomato Mozza Bufala',['Tomato, buffalo mozzarella','Tomate, mozzarella di bufala'],300,'veg'],
+  ['caesar','Caesar Chicken',['',''],350],
+  ['goatsalad','Hot Goat Salad',['Warm goat cheese','Chèvre chaud'],350,'veg'],
+  ['parmasalad','Parma Ham Salad',['',''],380]]},
  {id:'share',name:['To share','À partager'],note:['',''],items:[
   ['board','Cheese & Charcuterie Board',['Cheeses, cured meats, olives','Fromages, charcuterie, olives'],null],
   ['paella','Paella',['Seafood paella, new','Paella aux fruits de mer, nouveau'],null]]}
 ];
-const IMG=new Set(['margherita','pepperoni','salami','ham','mushham','4cheese','hawaii','orientale','cannibale','white4','goat','whitecanni','reblochon','bolognese','carbonara','garlic','swiss','bacon','american','mozza','board','paella','vegan','brie','swtuna','swsalami','bagnat','hambrie','swchicken','swham','cheese','chicken','parmabrie','vegetarian','tuna','pasta4']);
+const IMG=new Set(['margherita','pepperoni','salami','ham','mushham','4cheese','hawaii','orientale','cannibale','white4','goat','whitecanni','reblochon','bolognese','carbonara','garlic','swiss','bacon','american','mozza','board','paella','vegan','brie','swtuna','swsalami','bagnat','hambrie','swchicken','swham','cheese','chicken','parmabrie','vegetarian','tuna','pasta4','parma']);
 const EXTRAS=[[['Olives','Olives'],30],[['Egg','Œuf'],30],[['Garlic','Ail'],30],[['Chili','Piment'],30],[['Fresh tomato','Tomate fraîche'],30],[['Onion','Oignon'],30],[['Cheddar','Cheddar'],50],[['Pineapple','Ananas'],60],[['Mushroom','Champignons'],60],[['Blue cheese','Bleu'],70],[['Mozzarella','Mozzarella'],80],[['Bell pepper','Poivron'],80],[['Salami','Salami'],100],[['Pepperoni','Pepperoni'],100],[['Ham','Jambon'],100],[['Bacon','Bacon'],100],[['Parma ham','Jambon de Parme'],110],[['Reblochon','Reblochon'],110],[['Brie','Brie'],110],[['Buffalo mozzarella','Mozza di bufala'],110]];
 const T={veg:['Veggie','Végé'],pop:['Popular','Populaire'],confirm:['price to confirm','prix à confirmer'],extrasT:['Extras','Suppléments'],extrasP:['Add any topping to your pizza or sandwich. Write it in the order note.','Ajoutez ce que vous voulez sur votre pizza ou sandwich. Précisez-le dans la remarque de la commande.'],view:['View my order','Voir ma commande'],empty:['Your order is empty.','Votre commande est vide.'],unknown:['to confirm','à confirmer'],copied:['Copied','Copié']};
 
